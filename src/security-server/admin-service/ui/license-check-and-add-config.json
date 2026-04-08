@@ -14,6 +14,8 @@
     "**/*.log",
     "**/*.yaml*",
     "**/*.gradle.kts",
+    "**/gradle.lockfile",
+    "**/settings-gradle.lockfile",
     "**/.*",
     "src/openapi-types/",
     "**/openapi-types.ts",

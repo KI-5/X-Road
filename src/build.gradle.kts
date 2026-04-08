@@ -32,6 +32,12 @@ tasks.clean {
   delete("${rootDir}/packages/build")
 }
 
+allprojects {
+  dependencyLocking {
+    lockAllConfigurations()
+  }
+}
+
 dependencies {
   subprojects {
     pluginManager.withPlugin("java") {
