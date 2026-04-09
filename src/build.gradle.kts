@@ -7,6 +7,12 @@ plugins {
 version = "1.0"
 group = "org.niis.xroad"
 
+allprojects {
+  dependencyLocking {
+    lockAllConfigurations()
+  }
+}
+
 sonarqube {
   properties {
     property("sonar.host.url", project.findProperty("sonarqubeHost") ?: "")
