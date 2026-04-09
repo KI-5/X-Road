@@ -42,6 +42,7 @@
     "vue-tsc": "^2.2.10"
   },
   "pnpm": {
+    "minimumReleaseAge": 4320,
     "overrides": {
       "semver": "^7.5.3",
       "cross-spawn": "7.0.5",
@@ -50,7 +51,7 @@
       "immutable": "5.1.5",
       "axios": "~1.13.5",
       "@isaacs/brace-expansion": ">=5.0.1",
-      "flatted": "^3.4.0"
+      "flatted": "^3.4.2"
     }
   },
   "packageManager": "pnpm@10.30.1",
